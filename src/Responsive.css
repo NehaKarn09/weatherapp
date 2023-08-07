@@ -1,0 +1,104 @@
+@media only screen and (max-width:1676px)
+{   
+    .main{
+  height: 250px;
+  width: 250px;
+}
+}
+@media only screen and (max-width:1024px)
+{   
+.App::before{
+  height:110vh;
+}
+}
+@media only screen and (max-width:1280px)
+{   
+    .buddy{
+  
+  width: 50%;
+}
+}
+@media only screen and (max-width:730px)
+{   
+    .buddy{
+  
+  width: 50%;
+}
+}
+@media only screen and (max-width:680px)
+{   
+    .buddy{
+  
+  width: 50%;
+ }
+.bottom
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.App::before{
+    height:180vh;
+}
+.feels{
+    background-color: rgb(255,255,255,0.2);
+    border-radius: 10px;
+}
+.wind{
+    background-color: rgb(255,255,255,0.2);
+    border-radius: 10px;
+}
+.humidity{
+    margin:14px;
+    border-radius: 10px;
+}
+.main{
+    height:250px;
+    width:300px;
+    margin-top:20px;
+}
+}
+@media only screen and (max-width:500px)
+{   
+    .buddy{
+  width: 90%;
+}
+}
+
+@media only screen and (max-width:330px) 
+{
+  .App::before{
+      height:140vh;
+  }
+
+}
+@media only screen and (max-width:360px){
+  .main{
+    height:250px;
+    width:290px;
+    margin-top: 70px;
+  }
+  .bottom{
+    margin-top:200px;
+  }
+  .App::before{
+    height:300vw;
+  }
+}
+@media only screen and (max-width:316px){
+  .App::before{
+    width:110vw;
+    height:200vh;
+  }
+  .main{
+    height:220px;
+    width:250px;
+  }
+}
+@media only screen and (max-width:262px)
+{
+  .App::before{
+
+    weight:200vw;
+  }
+}
